@@ -1,0 +1,94 @@
+<html lang="pt-br">
+
+
+    <head>
+            <title>Dev AgriConnected</title>
+            <meta http-equiv="X-UA-Compatible" content="IE-edge">
+            <meta charset="utf-8">
+            <meta name="viewport" content="width=device-width, initial-scale=1">
+            <link href="../css/bootstrap.min.css" rel="stylesheet">
+            <link href="https://fonts.googleapis.com/css?family=Open+Sans" rel="stylesheet">
+            <link href="https://fonts.googleapis.com/css?family=Exo+2" rel="stylesheet">
+            <link href="_css/estilo.css" rel="stylesheet">
+        
+            <!-- Utiliza o Bootstrap -->
+            <script src="../js/jquery.js"></script>
+            <script src="../js/bootstrap.min.js"></script>
+            <script src="_js/script.js"></script>
+        
+        
+            <!-- Função de alerta quando clicar -->
+            <script>
+                function alertaclique{
+                    alert("Seu registro foi enviado.");
+                }
+            </script>
+        
+    </head>
+    
+
+    <body>
+        
+        <header>
+        <!-- Header da Página -->
+            <div class="page-header">
+                <a href="http://www.agriconnected.com/">
+                <img class="img-responsive center-block" src="../img/agri.png" alt="imagem" width="60%">
+                </a>
+            </div>
+        </header>
+
+
+        <!-- Formulário -->
+        <div class="container-fluid">
+
+                <h3 style="color: #008d35; font-family: 'Exo 2', sans-serif;"><b>Registre o local da plantação onde o círculo foi visto:</b></h3>
+                <br>
+        <form action="registro.php" method="POST">
+
+            <div class="form-group">
+                <div class="col-2">
+                    <label for="cidade">Cidade</label>
+                        <input style="text-transform: uppercase;" class="form-control input-sm" name ="cidade" type="text" id="cidade" required>
+                </div>
+            </div>
+
+
+            <div class="form-group">
+                <div class="col-2">
+                    <label for="estado">Estado</label>
+                        <input style="text-transform: uppercase;" class="form-control input-sm" name = "estado" type="text" id="estado" maxlength="2"  required>
+
+                </div>
+            </div>
+
+            <div class="form-group">
+                <div class="col-2">
+                    <label for="data">Data</label>
+                        <input class="form-control input-sm"  name = "data" type="date" id="data" required>
+                </div>
+            </div>
+
+                <button class="btn" style="width: 20em" type="submit" onclick="alertaclique()">Registrar</button>
+
+        </form>
+
+        <form action="consultaregistros.php">
+                 <button class="btn" style="width: 20em" type="submit" >Consultar Registros</button>
+        </form>
+
+
+        <form action="consultavezes.php">
+                 <button class="btn" style="width: 20em" type="submit" >Consultar Frequência por Estado</button>
+        </form>
+
+        </div>
+
+
+
+
+    </body>
+
+
+
+</html>
