@@ -6,7 +6,7 @@
 
         // Recebe os valores inseridos no formulário
         // Converte os campos cidade e estado para maiúsculo
-        $cidade         =       strtoupper($_POST['cidade']);
+        $cidade         =       ucwords($_POST['cidade']);
         $estado         =       strtoupper($_POST['estado']);
         $data           =       $_POST['data'];
 
