@@ -50,6 +50,7 @@
             <meta charset="utf-8">
             <link href="../css/bootstrap.min.css" rel="stylesheet">
             <link href="_css/estilo.css" rel="stylesheet">
+            <link href="https://fonts.googleapis.com/css?family=Exo+2" rel="stylesheet">
             <link href="https://fonts.googleapis.com/css?family=Open+Sans" rel="stylesheet">
         </head>
 
