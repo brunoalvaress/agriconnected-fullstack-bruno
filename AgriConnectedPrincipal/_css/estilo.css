@@ -83,3 +83,91 @@ h1, label  {
     tr {
             padding: 15px;
         }
+h1, label  {
+    font-family: 'Exo 2', sans-serif;
+
+}
+
+
+
+.btn{
+    background-color: #008D35;
+    font-family: 'Exo 2', sans-serif;
+    color: whitesmoke;
+    width: 15em;
+
+}
+
+.btn:hover{
+    background-color: #00B238;
+    font-family: 'Exo 2', sans-serif;
+    color: white;
+
+}
+.footer {
+    position: fixed;
+    left: 0;
+    bottom: 0;
+    width: 100%;
+    background-color: red;
+    color: white;
+    text-align: center;
+}
+
+.navbar{
+    background-color: #FF8200;
+}
+
+    table, td, tr{
+        border: 0.5px solid #ddd;
+        text-align: left;
+        font-family: 'Exo 2', sans-serif;
+
+
+    }
+
+
+     table {
+        border-collapse: collapse;
+        width: 100%;
+
+
+    }
+
+
+    th {
+
+        background: #008D35;
+        font-family: 'Exo 2', sans-serif;
+        font-size: 1.2em;
+        color: white;
+
+    }
+
+    tr:nth-child(odd) {
+
+        background-color: #00B238;
+        color: white;
+
+    }
+
+
+
+
+    td {
+        font-family: 'Exo 2', sans-serif;
+        
+        font-size: 0.8em;
+        padding: 5px;
+
+    }
+
+    th{
+        padding: 5px;
+    }
+
+
+    tr {
+            padding: 15px;
+ 
+        }
