@@ -1,17 +1,35 @@
-# agriconnected-fullstack-bruno
+# Sistema REST AgriConnected
 
-AgriConnected Dev Full Stack
 
-Tal sistema foi desenvolvido para um teste da AgriConnected. Consiste em um sistema de cadastro e consulta de observações de círculos alienígenas em plantações no Brasil. O usuário insere a cidade, estado e data em que avistou, então esses dados são enviados para um banco de dados, sendo possível ver todas as ocorrências e também a frequência de acontecimentos separadas por estado. 
 
-Foi feito utilizando HTML, CSS e Bootstrap para o Layout com certas funcionalidades em Javascript. Para o servidor foi utilizado PhP com o banco de dados MariaDB. O código fonte do projeto está separado dentro da pasta AgriConnectedPrincipal. 
+O sistema REST foi desenvolvido para a AgriConnected. Consiste em um sistema de cadastro e consulta de observações de círculos alienígenas em plantações no Brasil. O usuário insere a cidade, estado e data em que avistou, então esses dados são enviados para um banco de dados, sendo possível ver todas as ocorrências e também a frequência de acontecimentos separadas por estado. 
 
-A aplicação rodando está disponível em https://agriconnectedtestebruno.000webhostapp.com/AgriConnectedPrincipal/paginaprincipal.html
+## Tecnologias utilizadas
 
----
+- HTML5
+- CSS3
+- Bootstrap 2.3.2
+- PHP 7
+- MariaDB 10.1.18
 
-Such a system was developed for an AgriConnected test. It consists of a system of registration and consultation of observations of alien circles in plantations in Brazil. The user enters the city, state and date in which he / she saw, then this data is sent to a database, being possible to see all the occurrences and also the frequency of events separated by state.
+## Requisitos
 
-It was done using HTML, CSS and Bootstrap for Layout with certain Javascript features. For the server PhP was used with the MariaDB database. The source code for the project is separate within the AgriConnectedPrincipal folder.
+- Brackets ou outro editor
+- XAMPP 1.8.8
+
+## Guia
+
+1. É necessário clonar o repositório com o comando `git clone https://github.com/brunoalvaress/agriconnected-fullstack-bruno.git`
+2. Configurar o código para acessar ao banco de dados 
+3. Configurar o XAMPP com a porta do servidor escolhido
+
+## Funcionalidades
+
+- Cadastro da plantação através do formulário, usa-se o método POST
+- Consulta ao banco de dados completo utilizando GET
+- Consulta ao banco de dados filtrado por frequência de observações por estado utilizando GET
+
+### Aplicação
+A aplicação rodando e funcional está disponível no seguinte link de teste:
 
 https://agriconnectedtestebruno.000webhostapp.com/AgriConnectedPrincipal/paginaprincipal.html
