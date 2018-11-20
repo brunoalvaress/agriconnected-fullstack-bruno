@@ -1,3 +1,5 @@
+![logo_20-_20agri_20longo](https://user-images.githubusercontent.com/43390621/48809765-21123800-ed0d-11e8-9bd9-ea43c9b7d6ea.png)
+
 # Sistema REST AgriConnected
 
 
